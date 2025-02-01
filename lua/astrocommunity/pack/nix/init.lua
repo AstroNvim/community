@@ -23,16 +23,24 @@ return {
   {
     "AstroNvim/astrolsp",
     optional = true,
-    opts = function(_, opts) opts.servers = require("astrocore").list_insert_unique(opts.servers, { "nixd" }) end,
-  },
-  {
-    "stevearc/conform.nvim",
-    optional = true,
-    opts = {
-      formatters_by_ft = {
-        nix = { "alejandra" },
-      },
-    },
+    ---@param opts AstroLSPOpts
+    opts = function(_, opts)
+      local astrocore = require "astrocore"
+      opts.servers = astrocore.list_insert_unique(opts.servers, { "nixd" })
+      return astrocore.extend_tbl(opts, {
+        config = {
+          nixd = {
+            settings = {
+              nixd = {
+                formatting = {
+                  command = { "alejandra" },
+                },
+              },
+            },
+          },
+        },
+      })
+    end,
   },
   {
     "mfussenegger/nvim-lint",
