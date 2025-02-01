@@ -15,7 +15,6 @@ return {
       local builtins = require("null-ls").builtins
       opts.sources = require("astrocore").list_insert_unique(opts.sources, {
         builtins.code_actions.statix,
-        builtins.formatting.alejandra,
         builtins.diagnostics.deadnix,
       })
     end,
@@ -24,15 +23,6 @@ return {
     "AstroNvim/astrolsp",
     optional = true,
     opts = function(_, opts) opts.servers = require("astrocore").list_insert_unique(opts.servers, { "nixd" }) end,
-  },
-  {
-    "stevearc/conform.nvim",
-    optional = true,
-    opts = {
-      formatters_by_ft = {
-        nix = { "alejandra" },
-      },
-    },
   },
   {
     "mfussenegger/nvim-lint",
