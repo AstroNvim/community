@@ -46,7 +46,7 @@ EOF
 # Use pandoc to convert from markdown to html.
 docker run -i --rm --mount type=bind,source="$PWD",target="$PWD",readonly --workdir "$PWD" \
   pandoc/core:3.5 \
-  --from markdown \
+  --from markdown+autolink_bare_uris \
   --standalone \
   --toc \
   --toc-depth 2 \
