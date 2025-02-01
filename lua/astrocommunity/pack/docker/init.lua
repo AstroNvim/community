@@ -66,7 +66,7 @@ return {
     optional = true,
     opts = {
       linters_by_ft = {
-        ["docker-compose"] = { "hadolint" },
+        ["dockerfile"] = { "hadolint" },
       },
     },
   },
