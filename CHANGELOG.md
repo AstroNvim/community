@@ -1,5 +1,40 @@
 # Changelog
 
+## [17.0.0](https://github.com/AstroNvim/astrocommunity/compare/v16.0.0...v17.0.0) (2025-02-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **cord-nvim:** update to v2 ([#1322](https://github.com/AstroNvim/astrocommunity/issues/1322))
+* **linear-nvim:** Change leader from `<Leader>m` to `<Leader>L` ([#1314](https://github.com/AstroNvim/astrocommunity/issues/1314))
+
+### Features
+
+* **copilotchat-nvim:** select a picker based on installed one ([#1333](https://github.com/AstroNvim/astrocommunity/issues/1333)) ([0e1cf11](https://github.com/AstroNvim/astrocommunity/commit/0e1cf1178a6c0b2bfbc1e5e0d4a3009911b07649))
+* **cord-nvim:** update to v2 ([#1322](https://github.com/AstroNvim/astrocommunity/issues/1322)) ([a507700](https://github.com/AstroNvim/astrocommunity/commit/a507700b8cd5c258dafdda55c865ca5a9a9133cf))
+* **debugging:** add `nvim-dap-view` ([#1332](https://github.com/AstroNvim/astrocommunity/issues/1332)) ([b8efe23](https://github.com/AstroNvim/astrocommunity/commit/b8efe23b044da9c271ca87159fa148daa908008c))
+* **fuzzy-finder:** add `snacks.picker` from `snacks.nvim` ([#1320](https://github.com/AstroNvim/astrocommunity/issues/1320)) ([6c63109](https://github.com/AstroNvim/astrocommunity/commit/6c63109d12bff41b81e953b6b3f7ed6b92228c39))
+* **fzf-lua:** add directly go to definition when single result ([f31fb46](https://github.com/AstroNvim/astrocommunity/commit/f31fb46bd4e997eb812f985a9be0e2f2a3f8c9d2))
+* **fzf-lua:** add key mappings similar to telescope ([#1343](https://github.com/AstroNvim/astrocommunity/issues/1343)) ([b7a458d](https://github.com/AstroNvim/astrocommunity/commit/b7a458d85d7938402be8a5474d485f4114b8e1e1))
+* **fzf-lua:** add mappings similar to telescope ([b7a458d](https://github.com/AstroNvim/astrocommunity/commit/b7a458d85d7938402be8a5474d485f4114b8e1e1))
+* **fzf-lua:** directly go to definition when only a single result ([#1339](https://github.com/AstroNvim/astrocommunity/issues/1339)) ([f31fb46](https://github.com/AstroNvim/astrocommunity/commit/f31fb46bd4e997eb812f985a9be0e2f2a3f8c9d2))
+* **snacks-picker:** add `snacks.notifier` picker if used for notifications ([2f234c5](https://github.com/AstroNvim/astrocommunity/commit/2f234c568a28e08f03e326c467cd8f93f101a01f))
+
+
+### Bug Fixes
+
+* **avante-nvim:** fix typo in opts ([#1317](https://github.com/AstroNvim/astrocommunity/issues/1317)) ([532a545](https://github.com/AstroNvim/astrocommunity/commit/532a545db91bbc63be038fee99cf2666cc3b6350))
+* **avante-nvim:** update config for `render-markdown` ([532a545](https://github.com/AstroNvim/astrocommunity/commit/532a545db91bbc63be038fee99cf2666cc3b6350))
+* **bash:** add nvim-lint and add shellcheck to conform ([#1348](https://github.com/AstroNvim/astrocommunity/issues/1348)) ([5f7d6bc](https://github.com/AstroNvim/astrocommunity/commit/5f7d6bc6e27ce845eea24a916bc410d68e8b094e))
+* **docker:** disable docker-compose formatter and use default from yaml ([bac0a03](https://github.com/AstroNvim/astrocommunity/commit/bac0a03e1f661600efa1e4c848416355d2ce1586))
+* **docker:** use default formatter for yaml and turn off from docker_compose_language_service  ([#1321](https://github.com/AstroNvim/astrocommunity/issues/1321)) ([bac0a03](https://github.com/AstroNvim/astrocommunity/commit/bac0a03e1f661600efa1e4c848416355d2ce1586))
+* **laravel-nvim:** update required deps from v2 to v3 ([89c9960](https://github.com/AstroNvim/astrocommunity/commit/89c9960a7bb47d3f536f0e2d912228705c0e5ccc))
+* **linear-nvim:** Change leader from `&lt;Leader&gt;m` to `<Leader>L` ([#1314](https://github.com/AstroNvim/astrocommunity/issues/1314)) ([6426600](https://github.com/AstroNvim/astrocommunity/commit/6426600f2964f350377cc3627b868fc10286b286))
+* **markview-nvim:** adapted config to consider breaking changes in version v25.1. ([#1345](https://github.com/AstroNvim/astrocommunity/issues/1345)) ([0c09470](https://github.com/AstroNvim/astrocommunity/commit/0c0947080a93ebed72be268b8b2f18d8e7f604e0))
+* **pack:** update `laravel-nvim` required deps from v2 to v3 ([#1315](https://github.com/AstroNvim/astrocommunity/issues/1315)) ([89c9960](https://github.com/AstroNvim/astrocommunity/commit/89c9960a7bb47d3f536f0e2d912228705c0e5ccc))
+* **rust:** Sane excludeDirs pattern ([#1330](https://github.com/AstroNvim/astrocommunity/issues/1330)) ([5263d85](https://github.com/AstroNvim/astrocommunity/commit/5263d85a1dcbc8fd153ec385c1346c2ad9d95056))
+* **snacks-picker:** update to handle breaking changes ([e6bd16b](https://github.com/AstroNvim/astrocommunity/commit/e6bd16b21bbd491cd3b85395c6eeaf0be3fce294))
+
 ## [16.0.0](https://github.com/AstroNvim/astrocommunity/compare/v15.0.0...v16.0.0) (2025-01-10)
 
 
