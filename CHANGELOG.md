@@ -1,5 +1,17 @@
 # Changelog
 
+## [17.0.1](https://github.com/AstroNvim/astrocommunity/compare/v17.0.0...v17.0.1) (2025-02-17)
+
+
+### Bug Fixes
+
+* **blink-cmp:** update to `v0.12` ([39f6bdf](https://github.com/AstroNvim/astrocommunity/commit/39f6bdf05e0b0f611a32b2b263ca6dbf05287b63))
+* **fzf-lua:** show diagnostics for whole workspace ([#1356](https://github.com/AstroNvim/astrocommunity/issues/1356)) ([66ec9da](https://github.com/AstroNvim/astrocommunity/commit/66ec9da83427d2c1a1fe6d545309abb22cf55320))
+* **nvim-lsp-file-operations:** disable AstroLSP provided file operations ([46c4afb](https://github.com/AstroNvim/astrocommunity/commit/46c4afb3a00e1a03e43e5e2f29b8e3ed4a41605a))
+* **rainbow-delimiters-nvim:** use new large buffer detection ([10f3847](https://github.com/AstroNvim/astrocommunity/commit/10f38472c6ed10815098ed9be3426bb1a7a57ad9))
+* **rust:** rust types load in lldb ([#1359](https://github.com/AstroNvim/astrocommunity/issues/1359)) ([606de9b](https://github.com/AstroNvim/astrocommunity/commit/606de9b0080dc9c54cad26dc85135432069a8df3))
+* **snacks-picker:** `nvim-treesitter` shouldn't be a dependency ([8a2a0ff](https://github.com/AstroNvim/astrocommunity/commit/8a2a0ff47f5a4d31b542562c1822733edb8607d6))
+
 ## [17.0.0](https://github.com/AstroNvim/astrocommunity/compare/v16.0.0...v17.0.0) (2025-02-05)
 
 
