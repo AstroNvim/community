@@ -1,5 +1,19 @@
 # Changelog
 
+## [17.2.0](https://github.com/AstroNvim/astrocommunity/compare/v17.1.0...v17.2.0) (2025-02-21)
+
+
+### Features
+
+* **chezmoi:** Fix `specs` loading and enable watch option ([#1362](https://github.com/AstroNvim/astrocommunity/issues/1362)) ([5b9ca97](https://github.com/AstroNvim/astrocommunity/commit/5b9ca9757f676dbb89d53cbff84c765beca16e8b))
+* **neovim-lua-development:** add lua-console.nvim ([#1364](https://github.com/AstroNvim/astrocommunity/issues/1364)) ([3dc09de](https://github.com/AstroNvim/astrocommunity/commit/3dc09de413ed83420fd3119de1dae03de59ff367))
+
+
+### Bug Fixes
+
+* **cache-colorscheme:** add backwards compatibility with 0.9 ([8ac30a6](https://github.com/AstroNvim/astrocommunity/commit/8ac30a6ead12202ef3b1ed417b57088da46f93e0))
+* **typescript:** improve stability of `js-debug-adapter` execution path ([a780cd0](https://github.com/AstroNvim/astrocommunity/commit/a780cd0c44f6377de32d92791cf5253da52e0034))
+
 ## [17.1.0](https://github.com/AstroNvim/astrocommunity/compare/v17.0.0...v17.1.0) (2025-02-18)
 
 
